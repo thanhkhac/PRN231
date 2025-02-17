@@ -1,0 +1,11 @@
+﻿GET localhost:7279/odata/Products?$format=json
+GET localhost:7279/odata/Products?$select=ProductName,Cost&$format=json
+GET localhost:7279/odata/Products?$filter=Cost gt 30000&$format=json
+GET: localhost:7279/odata/Products?$top=3
+GET:  localhost:7279/odata/Products?$skip=2
+GET: localhost:7279/odata/Products/$count
+GET: localhost:7279/odata/Products?$format=xml
+GET https://localhost:7279/odata/Products(1)/Category/$ref
+PUT: https://localhost:7279/odata/Products(1)/Category(2)/$ref
+//Check lại xem category đã thay đổi chưa
+GET: https://localhost:7279/odata/Products(1)/Category/$ref

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdataDemo", "OdataDemo\OdataDemo.csproj", "{90558420-A314-46F8-B07A-3F716A0F67FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90558420-A314-46F8-B07A-3F716A0F67FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90558420-A314-46F8-B07A-3F716A0F67FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90558420-A314-46F8-B07A-3F716A0F67FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90558420-A314-46F8-B07A-3F716A0F67FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34F2A828-7DE2-46D3-80BB-823C05EFD3E2}
+	EndGlobalSection
+EndGlobal
